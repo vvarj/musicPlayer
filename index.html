@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotify - Your Fav Music is here !</title>
+    <link rel="stylesheet" href="./CSS/style.css" />
+  </head>
+  <body>
+    <nav class="title">
+      <ul>
+        <li class="brand">
+          <img
+            src="https://www.freepnglogos.com/uploads/spotify-logo-png/spotify-download-logo-30.png"
+            alt="logo"
+          />
+          Spotify
+        </li>
+        <li><a href="">Home</a></li>
+        <li><a href="">Songs </a></li>
+        <li><a href="">About Us</a></li>
+      </ul>
+    </nav>
+
+    <div class="container">
+      <div class="songList">
+        <h1 id="titleDes">Best of 2021 Songs</h1>
+        
+
+        <div class="songItemContainer">
+          <div class="songItem">
+            <img
+              src="https://i1.sndcdn.com/artworks-000181058480-jpgjp2-t500x500.jpg"
+              alt="cover1"/>
+            <span class="songName">let me love You</span>
+            <span class="songListPlay"
+              ><span class="timeStamp">5:30 <i id="0" class="songItemPlay fas fa-play-circle"></i
+            ></span></span>
+        </div>
+
+        <div class="songItem">
+            <img
+              src="https://i1.sndcdn.com/artworks-000181058480-jpgjp2-t500x500.jpg"
+              alt="cover1"/>
+            <span class="songName">let me love You</span>
+            <span class="songListPlay"
+              ><span class="timeStamp">5:30 <i id="1" class="songItemPlay fas fa-play-circle"></i
+            ></span></span>
+        </div>
+        <div class="songItem">
+            <img
+              src="https://i1.sndcdn.com/artworks-000181058480-jpgjp2-t500x500.jpg"
+              alt="cover1"/>
+            <span class="songName">let me love You</span>
+            <span class="songListPlay"
+              ><span class="timeStamp">5:30 <i id="2" class="songItemPlay fas fa-play-circle"></i
+            ></span></span>
+        </div>
+        <div class="songItem">
+            <img
+              src="https://i1.sndcdn.com/artworks-000181058480-jpgjp2-t500x500.jpg"
+              alt="cover1"/>
+            <span class="songName">let me love You</span>
+            <span class="songListPlay"
+              ><span class="timeStamp">5:30 <i id="3" class="songItemPlay fas fa-play-circle"></i
+            ></span></span>
+        </div>
+        <div class="songItem">
+            <img
+              src="https://i1.sndcdn.com/artworks-000181058480-jpgjp2-t500x500.jpg"
+              alt="cover1"/>
+            <span class="songName">let me love You</span>
+            <span class="songListPlay"
+              ><span class="timeStamp">5:30 <i id="4" class="songItemPlay fas fa-play-circle"></i
+            ></span></span>
+        </div>
+        <div class="songItem">
+            <img
+              src="https://i1.sndcdn.com/artworks-000181058480-jpgjp2-t500x500.jpg"
+              alt="cover1"/>
+            <span class="songName">let me love You</span>
+            <span class="songListPlay"
+              ><span class="timeStamp">5:30 <i id="5" class="songItemPlay fas fa-play-circle"></i
+            ></span></span>
+        </div>  
+
+    </div>  
+
+
+
+          </div>
+        
+
+
+      <div class="songBanner"></div>
+    </div>
+
+    <div class="bottom">
+ 
+      <div class="icons">
+        <!-- fontawesome icons -->  
+        <i class="fas fa-2x fa-step-backward" id="previousSong"></i>
+        <i class="fas fa-3x fa-play-circle" id="masterPlay"></i>
+        <i class="fas fa-2x fa-step-forward" id="nextSong"></i>
+      </div>
+      <input type="range" name="range" id="myProgressBar" value="0" min="0" max="100" />
+      <div class="songinfo" >
+          <img src="./images/playing.gif" width="50px"alt="playing" id="gif"><div id="songInfo">Welcome to Spotify Media Player</div>  
+      </div>
+    </div>
+
+    <script src="./script/script.js"></script>
+    <script
+      src="https://kit.fontawesome.com/eb35c886ec.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
